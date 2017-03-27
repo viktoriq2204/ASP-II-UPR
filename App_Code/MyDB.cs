@@ -30,9 +30,9 @@ public class MyDB
 
                     string rename = guid + FileName.Replace(" ", "_");
 
-                    FU_Image.SaveAs(System.Web.HttpContext.Current.Server.MapPath("~/pages/news/newsimage/" + rename));
+                    FU_Image.SaveAs(System.Web.HttpContext.Current.Server.MapPath("~/pages/news/newsimages/" + rename));
 
-                    url = "~/ pages / news / newsimage / " + rename;
+                    url = "~/pages/news/newsimages/" + rename;
                 }
             }
             conn.Open();
